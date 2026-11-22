@@ -27,6 +27,7 @@ def image(name, alt, eager=False, position=None):
 
 # Display-only crops remove screenshot borders; original JPEG bytes stay intact.
 PHOTO_FRAMES = {
+    'reitschule-ausritt-waldweg-gesichter-unscharf': (471, 1024, 198, 826),
     'reiterin-mit-pferd-im-bach': (736, 1600, 310, 1290),
     'pensionsstall-anbindeplaetze-am-hof': (736, 1600, 310, 1291),
     'stallgemeinschaft-feier-mit-blumen': (900, 1600, 500, 1138),
@@ -157,6 +158,7 @@ def school_photos(group):
             ('reitschule-begleitung-in-der-reithalle', 'Person begleitet Pferd und Reiterin in einer hellen Reithalle', 'Mit Begleitung in der Halle', 1600, 777),
         ],
         'unterwegs': [
+            ('reitschule-ausritt-waldweg-gesichter-unscharf', 'Reitgruppe auf einem Waldweg; Gesichter im Bild unscharf gemacht', 'Unterwegs im Wald', 471, 1024),
             ('reitschule-ausritt-im-sommerwald', 'Mehrere Pferde und Reiter auf einem sonnigen Waldweg', 'Gemeinsam ins Grüne', 1200, 1600),
             ('reitschule-reitgruppe-auf-waldweg', 'Blick zurück auf eine Reitgruppe auf einem grünen Waldweg', 'Zusammen unterwegs', 1200, 1600),
             ('reitschule-pferde-gemeinsam-fuehren', 'Mehrere Personen führen Pferde auf einem Weg am Gebäude', 'Gemeinsam mit den Pferden', 1200, 1600),
